@@ -1,0 +1,83 @@
+.main{
+	background-color: lightblue;
+	width: 25%;
+	height: 1000px;
+	float: left;
+	box-shadow: 0px 0px 1px 0px;
+	
+	
+}
+.child{
+	padding: 2%;
+	background-color: #61514D;
+	box-shadow: 0px 0px 1px 0px;
+	width: 70%;
+	float: right;
+}
+.img
+{
+	height: 15rem;
+}
+.parent{
+	display: flex;
+	flex-direction: row
+	flex-wrap: wrap;
+	}
+.chilld
+{
+	width: 90%;
+	text-align: right;
+	padding: 2%;
+	margin: 2%;
+	
+	
+}
+.profile
+{
+	background-color: white;
+	width: 200px;
+	border: 2px solid #ddd;
+	padding: 1%;
+	margin: 2%;
+	box-shadow: 0px 8px 8px 8px #000;
+	border-radius:70%;
+}
+.contact
+
+{
+	width: 50px;
+	
+
+}
+.in{
+	width:10%;
+	float: left;
+	height:100px;
+}
+.inn
+{
+	width: 90%;
+	float: left;
+}
+.im
+{
+	width:10%;
+	float: left;
+	height:80px;
+
+}
+hr.header
+{
+	border: 2px solid black;
+	background-color: white;
+}
+/*for ipad pro*/
+@media only screen and (min-width: 1024px) and (max-height: 1366px) {
+  .child {
+    background-color: lightblue;
+  }
+  .main
+  {
+  	background-color:  #61514D;
+  }
+}

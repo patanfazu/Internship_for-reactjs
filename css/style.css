@@ -1,0 +1,36 @@
+.child
+{
+	width: 30%;
+	border: 1px solid #ddd;
+	text-align: center;
+	border-radius: 5%;
+}
+.details{
+	display: flex;
+
+}
+.details img{
+
+	width: 30%;
+}
+.child img{
+	width:100;
+
+}
+.main{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+
+}
+- for extrasnall devices:320px to 480px
+- for small devices:481px
+
+@media only screen and (min-width: 300px) and (max-width: 767px)
+{
+	.child
+	{
+		width: 100%
+	}
+
+} 
